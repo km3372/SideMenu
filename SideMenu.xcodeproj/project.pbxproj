@@ -12,6 +12,7 @@
 		4D15E9E01E7D5B630045EE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D15E9DE1E7D5B630045EE23 /* Main.storyboard */; };
 		4D15E9E21E7D5B630045EE23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D15E9E11E7D5B630045EE23 /* Assets.xcassets */; };
 		4D15E9E51E7D5B630045EE23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D15E9E31E7D5B630045EE23 /* LaunchScreen.storyboard */; };
+		4D15E9ED1E7D5BC90045EE23 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D15E9EC1E7D5BC90045EE23 /* SideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4D15E9E11E7D5B630045EE23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D15E9E41E7D5B630045EE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D15E9E61E7D5B630045EE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D15E9EC1E7D5BC90045EE23 /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4D15E9DA1E7D5B630045EE23 /* AppDelegate.swift */,
 				4D15E9DC1E7D5B630045EE23 /* ViewController.swift */,
+				4D15E9EC1E7D5BC90045EE23 /* SideMenu.swift */,
 				4D15E9DE1E7D5B630045EE23 /* Main.storyboard */,
 				4D15E9E11E7D5B630045EE23 /* Assets.xcassets */,
 				4D15E9E31E7D5B630045EE23 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D15E9ED1E7D5BC90045EE23 /* SideMenu.swift in Sources */,
 				4D15E9DD1E7D5B630045EE23 /* ViewController.swift in Sources */,
 				4D15E9DB1E7D5B630045EE23 /* AppDelegate.swift in Sources */,
 			);
